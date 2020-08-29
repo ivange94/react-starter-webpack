@@ -1,9 +1,9 @@
 import React from 'react';
-import './app.css';
+import styles from './app.css';
 
 const App = () => (
     <>
-        <h1>React webpack starter App</h1>
+        <h1 className={styles.h1aqua}>React webpack starter Apps</h1>
     </>
 )
 
