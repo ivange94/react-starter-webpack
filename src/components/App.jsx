@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './app.css';
+import styles from './app.scss';
 
 const App = () => (
     <>

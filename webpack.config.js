@@ -10,7 +10,7 @@ module.exports = {
             }
         },
         {
-            test: /\.css$/i,
+            test: /\.s?css$/i,
             use: [
                 {loader: 'style-loader'}, 
                 {
@@ -20,7 +20,8 @@ module.exports = {
                             localIdentName: "[name]__[local]--[hash:base64:5]"
                         }
                     }
-                }]
+                },
+                {loader: 'sass-loader'}]
         }]
     },
     resolve: {
