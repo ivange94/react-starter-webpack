@@ -9,6 +9,7 @@ If you're starting a new React project, the recommended way is to use [Create Re
 - Support for `.jsx` extensions
 - Support for CSS
 - Support for SASS
+- Support for TypeScript
 - Dev server for live reload
 - Production build
 
